@@ -1,0 +1,35 @@
+{
+    "name": "@telenetix/simple-encrypt",
+    "version": "1.0.2",
+    "description": "Node.js N-API bindings for the system-installed SimpleEncrypt library",
+    "keywords": [
+      "aes",
+      "aes256",
+      "encryption",
+      "simpleencrypt",
+      "native-addon",
+      "napi"
+    ],
+    "main": "index.js",
+    "types": "index.d.ts",
+    "gypfile": true,
+    "scripts": {
+      "install": "node-gyp rebuild"
+    },
+    "dependencies": {
+      "node-addon-api": "^7.0.0",
+      "bindings": "^1.5.0"
+    },
+    "engines": {
+      "node": ">=16"
+    },
+    "os": ["linux"],
+    "cpu": ["x64", "arm64"],
+    "license": "MIT",
+    "author": "Node.js wrapper by Prathik P, Shreyas Nayak (C library)",
+    "homepage": "https://github.com/shreyasnayak/SimpleEncrypt",
+    "bugs": {
+      "url": "https://github.com/shreyasnayak/SimpleEncrypt/issues"
+    }
+  }
+  
