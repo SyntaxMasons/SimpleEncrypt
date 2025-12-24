@@ -7,3 +7,4 @@ SimpleEncrypt is a Cross-Language Encryption Library that provides the ability t
 - [C++ / CMAKE](https://github.com/shreyasnayak/SimpleEncrypt/tree/main/CPP)
 - [C++ / Qt QMake](https://github.com/shreyasnayak/SimpleEncrypt/tree/main/CPP_QMAKE)
 - [Python 3](https://github.com/shreyasnayak/SimpleEncrypt/tree/main/Python)
+- [Node](https://www.npmjs.com/package/@telenetix/simple-encrypt)
